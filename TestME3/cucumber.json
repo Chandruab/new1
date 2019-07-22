@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-22T09:46:13.338Z",
+        "line": 13,
+        "name": "Login",
+        "description": "",
+        "id": "title-of-your-feature;login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5265465273,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to enter the url",
+            "match": {
+              "location": "Test2.i_want_to_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 473122103,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on signin",
+            "match": {
+              "location": "Test2.click_on_signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 313123719,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter \"Lalitha\" and  \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Password123\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Test2.i_enter_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 444105979,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Login",
+            "match": {
+              "location": "Test2.i_click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48667,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Homepage is displayed",
+            "match": {
+              "location": "Test2.homepage_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "classpath:TEst2Login/Sign.feature",
+    "tags": []
+  }
+]
